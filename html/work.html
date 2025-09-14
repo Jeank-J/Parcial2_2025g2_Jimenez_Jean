@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Efecto Blur Inferior</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .contenido {
+      height: 200vh; /* solo para simular scroll */
+      background: linear-gradient(white, lightblue, blue);
+      padding: 20px;
+    }
+
+    .blur-bottom {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 80px; /* altura del efecto */
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px); /* soporte Safari */
+      pointer-events: none; /* no bloquea clics */
+    }
+  </style>
+</head>
+<body>
+  <div class="contenido">
+    <h1>Scroll hacia abajo</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <p>Sigue bajando y verás el efecto de desenfoque en la parte inferior.</p>
+  </div>
+
+  <div class="blur-bottom"></div>
+</body>
+</html>

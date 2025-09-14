@@ -20,12 +20,12 @@
 
 
     <!-- nav -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-lg  bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">DevHouse</a>
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" data-section="home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" data-section="about">About Us</a></li>
+                <li class="nav-item"><a class="nav-link active" data-section="home" href="./index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" data-section="about" href="./html/about.html">About Us</a></li>
                 <li class="nav-item"><a class="nav-link" data-section="portfolio">Portafolio</a></li>
                 <li class="nav-item"><a class="nav-link" data-section="services">Servicios</a></li>
                 <li class="nav-item"><a class="nav-link" data-section="contact">Contact</a></li>
@@ -33,16 +33,31 @@
         </div>
     </nav>
 
+    <!-- barra inferior efecto borroso
+    <div class="blur-bottom"></div>
+    -->
+
     <!-- Home -->
     <section class="home">
-        <div class="container-fluid contenido-home  h-100">
-
+        <div class="container-fluid contenido-home  h-100 px-5 py-5">
+            <div class="row h-75 align-items-center px-5">
+                <div class="col">
+                    <h1 class="fw-bold display-2">CoderHub</h1>
+                    <h3 class="fw-semibold ps-5">XR Studio for Enterprise</h3>
+                </div>
+            </div>
+            <div class="row h-25 px-5 pb-5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <p>Transforming bold ideas into spatial computing apps.</p>
+                    <a href="#">a</a>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Info Transicion -->
-    <section class="container-fluid">
-        <div class="row h-100 m-5">
+    <section class="container-fluid mt-5 px-5">
+        <div class="row m-5">
             <div class="col-3  col-lg-3 d-flex justify-content-center">
                 <p class="text-muted small">
                     <i class="bi bi-arrow-right-circle-fill me-2"></i>
@@ -110,8 +125,8 @@
 
 
     <!-- Info Transicion -->
-    <section class="container-fluid">
-        <div class="row h-100 m-5">
+    <section class="container-fluid mt-5 px-5">
+        <div class="row m-5">
             <div class="col-3  col-lg-3 d-flex justify-content-center">
                 <p class="text-muted small">
                     <i class="bi bi-arrow-right-circle-fill me-2"></i>
@@ -128,7 +143,7 @@
                 </div>
             </div>
         </div>
-        <div class="d-flex justify-content-end">
+        <div class="container-fluid pe-5 d-flex justify-content-end">
             <a href="#" class="btn btn-dark rounded-pill">
                 View more work
             </a>
@@ -137,7 +152,7 @@
 
 
     <!-- cartas de trabajo -->
-    <div class="card mt-5 p-5" style="height:90vh; width:100%;">
+    <div class="card m-4 p-5" style="height:90vh">
         <div class="card-header text-center">
             Mi Título
         </div>
@@ -145,7 +160,7 @@
             style="height:100%; width:100%; object-fit:cover;" alt="Tarjeta de trabajo">
     </div>
 
-    <div class="card mt-5 p-5" style="height:90vh; width:100%;">
+    <div class="card m-4 p-5" style="height:90vh">
         <div class="card-header text-center">
             Mi Título
         </div>
@@ -153,13 +168,128 @@
             style="height:100%; width:100%; object-fit:cover;" alt="Tarjeta de trabajo">
     </div>
 
-    <div class="card mt-5 p-5" style="height:90vh; width:100%;">
+    <div class="card m-4 p-5" style="height:90vh">
         <div class="card-header text-center">
             Mi Título
         </div>
         <img src="https://picsum.photos/800/600?grayscale&blur=5" class="card-img-bottom"
             style="height:100%; width:100%; object-fit:cover;" alt="Tarjeta de trabajo">
     </div>
+
+    <!-- Info Transicion -->
+    <section class="container-fluid m-5">
+        <div class="row">
+            <div class="col-3  col-lg-3 d-flex justify-content-center">
+                <p class="text-muted small">
+                    <i class="bi bi-arrow-right-circle-fill me-2"></i>
+                    Why Choose US
+                </p>
+            </div>
+            <div class="col-12 col-lg-9">
+                <h2>Enterprises choose Treeview</h2>
+                <h3> because we offer </h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- targetas de cuyalidades-->
+
+    <div class="container-fluid mt-5 px-5">
+        <div class="row">
+            <div class="col-6 col-lg-3">
+                <div class="card shadow-sm border-0 rounded-4 p-5 position-relative">
+                    <span class="position-absolute top-0 end-0 me-3 mt-3 text-muted small"> 001 </span>
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="bi bi-box" style="font-size:2rem;">[]</i>
+                        <p class="mb-0 fw-medium"> End-to-end delivery under one senior team. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="card shadow-sm border-0 rounded-4 p-5 position-relative">
+                    <span class="position-absolute top-0 end-0 me-3 mt-3 text-muted small"> 001 </span>
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="bi bi-box" style="font-size:2rem;">[]</i>
+                        <p class="mb-0 fw-medium"> End-to-end delivery under one senior team. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="card shadow-sm border-0 rounded-4 p-5 position-relative">
+                    <span class="position-absolute top-0 end-0 me-3 mt-3 text-muted small"> 001 </span>
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="bi bi-box" style="font-size:2rem;">[]</i>
+                        <p class="mb-0 fw-medium"> End-to-end delivery under one senior team. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-lg-3">
+                <div class="card shadow-sm border-0 rounded-4 p-5 position-relative">
+                    <span class="position-absolute top-0 end-0 me-3 mt-3 text-muted small"> 001 </span>
+                    <div class="d-flex align-items-center gap-3">
+                        <i class="bi bi-box" style="font-size:2rem;">[]</i>
+                        <p class="mb-0 fw-medium"> End-to-end delivery under one senior team. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pe-5 d-flex m-3 justify-content-end">
+            <a href="#" class="btn btn-dark rounded-pill">
+                View more work
+            </a>
+        </div>
+    </div>
+
+
+    <!-- seccion de contacto -->
+    <section class="container-fluid bg-dark text-light py-5" style="height: 90vh;">
+        <div class="row justify-content-center align-items-center">
+
+            <!-- Columna izquierda: Formulario -->
+            <div class="col-md-5">
+                <div class="bg-white text-dark p-4 rounded shadow">
+                    <h4 class="fw-bold">Ready to <span class="text-primary">build XR?</span></h4>
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Name*</label>
+                            <input type="text" class="form-control" placeholder="Full name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">E-mail*</label>
+                            <input type="email" class="form-control" placeholder="Work email">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">How did you hear about us?</label>
+                            <input type="text" class="form-control" placeholder="e.g. LinkedIn, ChatGPT...">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message*</label>
+                            <textarea class="form-control" rows="3" placeholder="Your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-dark w-100 rounded-pill">Send Message</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Columna derecha: Texto -->
+            <div class="col-md-6 ps-md-5 mt-4 mt-md-0">
+                <h1 class="fw-bold">Let's talk.</h1>
+                <p class="lead">
+                    Partner with <span class="fw-bold">Treeview</span> to build your next XR project.
+                </p>
+                <hr>
+                <ul class="list-unstyled row g-2">
+                    <li class="col-6"><i class="bi bi-check-circle me-2"></i>End-to-End Delivery</li>
+                    <li class="col-6"><i class="bi bi-lightning-charge me-2"></i>Startup Speed</li>
+                    <li class="col-6"><i class="bi bi-people me-2"></i>Long-Term Partnership</li>
+                    <li class="col-6"><i class="bi bi-code-slash me-2"></i>Full IP Ownership</li>
+                    <li class="col-6"><i class="bi bi-award me-2"></i>World-Class Team</li>
+                    <li class="col-6"><i class="bi bi-building me-2"></i>Enterprise-Grade</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
 
 
     <footer class="bg-dark text-white text-center p-3 mt-5">
