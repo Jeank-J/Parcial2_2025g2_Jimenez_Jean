@@ -15,18 +15,19 @@ body {
 .tituloF {
     font-size: clamp(2rem, 15vw, 12rem);
     line-height: 1.1;
-    font-weight: 700; /* Bold */
+    font-weight: 700;
+    /* Bold */
 }
 
 .tituloS {
     font-size: clamp(1rem, 4vw, 3rem);
-    font-weight: 500;    
+    font-weight: 500;
 }
 
 .tituloP {
     font-size: clamp(0.9rem, 1.5vw, 1.25rem);
     font-weight: 400;
-    line-height: 1.6;    
+    line-height: 1.6;
 }
 
 
@@ -119,4 +120,23 @@ body {
 
 .uno {
     border: solid 2px #000;
+}
+
+.card-img-bottom {
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.card {
+    height: 100%;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
