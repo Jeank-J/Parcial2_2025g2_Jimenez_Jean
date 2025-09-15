@@ -6,14 +6,17 @@
 
 body {
     background-color: #F5F5F5;
+    width: 100vw;
 }
+
 
 .tipoDeFuente {
     font-family: "Roboto", sans-serif;
+    word-break: break-word;
 }
 
 .tituloF {
-    font-size: clamp(2rem, 15vw, 12rem);
+    font-size: clamp(2rem, 15vw, 11rem);
     line-height: 1.1;
     font-weight: 700;
     /* Bold */
