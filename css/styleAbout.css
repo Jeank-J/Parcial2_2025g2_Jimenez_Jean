@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #F5F5F5;
 }
 
@@ -109,13 +109,14 @@ body{
         transform: translateY(0);
     }
 }
+
 .services-section {
 
     min-height: 120vh;
     padding: 3rem;
     color: white;
     background-color: #0a0a0a;
-    
+
     background-image:
         radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 60%),
         radial-gradient(circle at top right, rgba(255, 255, 255, 0.08), transparent 60%),
@@ -131,12 +132,12 @@ body{
 .testimonial-card {
     transition: transform 0.3s ease, box-shadow 0.4s ease;
     border: none;
-    border-radius: 20px;    
+    border-radius: 20px;
 }
 
 .testimonial-card:hover {
     transform: translateY(-5px);
-    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.7);
 }
 
 .profile-img {
@@ -144,4 +145,25 @@ body{
     height: 60px;
     border-radius: 50%;
     object-fit: cover;
+}
+
+.grayscale {
+    filter: grayscale(100%);
+}
+
+.jefeB {
+    width: 100vw;
+    color: white;
+    background-color: #0a0a0a;
+
+    background-image:
+        radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 60%),
+        radial-gradient(circle at top right, rgba(255, 255, 255, 0.08), transparent 60%),
+        radial-gradient(circle at bottom left, rgba(255, 255, 255, 0.08), transparent 60%),
+        radial-gradient(circle at bottom right, rgba(255, 255, 255, 0.08), transparent 60%),
+        url("https://www.transparenttextures.com/patterns/asfalt-dark.png");
+
+    background-size: cover;
+    background-blend-mode: overlay;
+    border-radius: 20px;
 }
