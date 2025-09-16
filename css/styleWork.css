@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+
+.tipoDeFuente {
+    font-family: "Roboto", sans-serif;
+    word-break: break-word;
+}
+
+
+
+.tituloSF {
+    font-size: clamp(2rem, 15vw, 16rem);
+    line-height: 1.1;
+    font-weight: 700;
+    /* Bold */
+}
+
+.tituloF {
+    font-size: clamp(2rem, 10vw, 14rem);
+    line-height: 1.1;
+    font-weight: 700;
+    /* Bold */
+}
+
+.tituloSS {
+    font-size: clamp(1rem, 6vw, 8rem);
+    font-weight: 550;
+}
+
+.tituloS {
+    font-size: clamp(1rem, 4vw, 6rem);
+    font-weight: 500;
+}
+
+.tituloSP {
+    font-size: clamp(0.9rem, 2vw, 2.5rem);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.tituloP {
+    font-size: clamp(0.9rem, 1.7vw, 1.5rem);
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+.work-image {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1rem !important;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-image:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+}
+
+/* Mejorar las tarjetas */
+.work-card {
+    height: 100%;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.work-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
