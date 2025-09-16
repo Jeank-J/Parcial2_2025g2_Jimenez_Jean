@@ -73,18 +73,27 @@ body {
 
 }
 
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+.animate-on-scroll.animate__animated {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
 .blur-bottom {
     position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 80px;
-    /* altura del área desenfocada */
+    height: 50px;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
-    /* soporte en Safari */
     pointer-events: none;
-    /* no bloquea clics ni scroll */
+    border-radius: 10px;
 }
 
 .bb {
@@ -94,19 +103,35 @@ body {
 .home {
     width: 100vw;
     height: 100vh;
+    position: relative;
+    overflow: hidden;
     padding: 10px;
 }
 
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    z-index: -1;
+}
+
 .contenido-home {
-    background-color: blue;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.7)),
-        url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600"><defs><radialGradient id="bg" cx="50%" cy="50%"><stop offset="0%" stop-color="%23334155"/><stop offset="100%" stop-color="%23111827"/></radialGradient></defs><rect width="1000" height="600" fill="url(%23bg)"/><circle cx="300" cy="200" r="150" fill="%23374151" opacity="0.3"/><circle cx="700" cy="400" r="120" fill="%23475569" opacity="0.4"/><path d="M200,300 Q400,200 600,350 T900,300" stroke="%23e5e7eb" stroke-width="2" fill="none" opacity="0.2"/></svg>');
+    position: relative;
+    border-radius: 20px;
+    z-index: 1;
+    color: white;
+
+    /* degradado + textura grumosa encima del video */
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)),
+        url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
     background-size: cover;
     background-position: center;
-    border-radius: 20px;
-    position: relative;
-    overflow: hidden;
-    color: white;
 }
 
 #marcas .carousel-item img {
@@ -142,4 +167,15 @@ body {
 .card-header {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
+}
+
+
+.saltImg {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.saltImg:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
