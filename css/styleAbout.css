@@ -8,35 +8,57 @@ body{
     background-color: #F5F5F5;
 }
 
+
 .tipoDeFuente {
     font-family: "Roboto", sans-serif;
+    word-break: break-word;
+}
+
+
+
+.tituloSF {
+    font-size: clamp(2rem, 15vw, 14rem);
+    line-height: 1.1;
+    font-weight: 700;
+    /* Bold */
 }
 
 .tituloF {
-    font-size: clamp(2rem, 15vw, 12rem);
+    font-size: clamp(2rem, 10vw, 14rem);
     line-height: 1.1;
-    font-weight: 700; /* Bold */
+    font-weight: 700;
+    /* Bold */
+}
+
+.tituloSS {
+    font-size: clamp(1rem, 6vw, 8rem);
+    font-weight: 550;
 }
 
 .tituloS {
-    font-size: clamp(1rem, 4vw, 3rem);
-    font-weight: 500;    
+    font-size: clamp(1rem, 4vw, 6rem);
+    font-weight: 500;
+}
+
+.tituloSP {
+    font-size: clamp(0.9rem, 2vw, 2.5rem);
+    font-weight: 400;
+    line-height: 1.6;
 }
 
 .tituloP {
-    font-size: clamp(0.9rem, 1.5vw, 1.25rem);
+    font-size: clamp(0.9rem, 1.7vw, 1.5rem);
     font-weight: 400;
-    line-height: 1.6;    
+    line-height: 1.6;
 }
 
 .services-section {
 
-    min-height: 100vh;
+    min-height: 120vh;
     padding: 3rem;
     color: white;
     background-color: #0a0a0a;
-
-    /* 2. Degradados radiales en esquinas + textura de ruido */
+    
     background-image:
         radial-gradient(circle at top left, rgba(255, 255, 255, 0.08), transparent 60%),
         radial-gradient(circle at top right, rgba(255, 255, 255, 0.08), transparent 60%),
