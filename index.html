@@ -23,11 +23,12 @@
 
     <!-- Preloader -->
     <section class="d-flex align-items-center justify-content-center preloader">
-        <h1 class="animate__animated animate__slideInLeft animate__Fast" id="tit_preloader">CoderHub</h1>
+        <h1 class="animate__animated animate__slideInLeft animate__Fast tipoDeFuente tituloF" id="tit_preloader">
+            CoderHub</h1>
     </section>
 
 
-    <!-- nav -->
+    <!-- nav 
     <nav class="navbar navbar-expand-lg  bg-light sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">DevHouse</a>
@@ -40,40 +41,70 @@
             </ul>
         </div>
     </nav>
-
-    <!-- barra inferior efecto borroso
     -->
+    <nav class="navbar navbar-expand-lg px-3 sticky-top" style="background-color: #F5F5F5;">
+        <div class="container-fluid">
+
+            <a class="navbar-brand" href="./index.html">CoderHub</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/about.html">About.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/work.html">Work.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact.</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- barra inferior efecto borroso -->
     <div class="blur-bottom"></div>
 
 
     <!-- Home -->
     <section class="home">
-        
+
         <video autoplay muted loop playsinline class="bg-video">
             <source src="./img/mainfondo.mp4" type="video/mp4">
             Tu navegador no soporta video en HTML5.
         </video>
         <!-- Capa de contenido -->
-        <div class="container-fluid contenido-home h-100 px-5 py-5">
-            <div class="row h-75 align-items-center px-5">
+        <div class="container-fluid contenido-home h-100 p-2">
+            <div class="row h-75 align-items-center px-1">
                 <div class="col">
                     <h1 class="tipoDeFuente tituloF">CoderHub</h1>
-                    <h3 class="ps-5 tipoDeFuente tituloS">XR Studio for Enterprise</h3>
+                    <h3 class="ps-5 tipoDeFuente tituloSS">XR Studio for Enterprise</h3>
                 </div>
             </div>
             <div class="row h-25 px-5 pb-5">
                 <div class="d-flex justify-content-between align-items-center">
-                    <p class="tipoDeFuente tituloP">
+                    <p class="tipoDeFuente tituloSP">
                         Transforming bold ideas into spatial computing apps.
                     </p>
                     <a href="#">[]</a>
+
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Info Transicion -->
-    <section class="container-fluid mt-5">
+    <section class="container-fluid my-5">
         <div class="row px-3">
             <div class="col-4  col-lg-3 d-flex justify-content-center">
                 <p class="tipoDeFuente tituloP">
@@ -93,7 +124,7 @@
     </section>
 
 
-    <div class="container-fluid mt-5 px-5">
+    <div class="container-fluid my-5 px-5">
         <div class="row g-5 d-flex justify-content-center">
             <div class="col-6 col-lg-3 col-xl-2">
                 <img src="./img/al1.png" alt="al1" class="img-fluid saltImg rounded-5">
@@ -101,7 +132,7 @@
             <div class="col-6 col-lg-3 col-xl-2">
                 <img src="./img/al2.png" alt="al1" class="img-fluid saltImg rounded-5">
             </div>
-            <div class="col-6 col-lg-3 col-xl-2" >
+            <div class="col-6 col-lg-3 col-xl-2">
                 <img src="./img/al3.png" alt="al1" class="img-fluid saltImg rounded-5 ">
             </div>
 

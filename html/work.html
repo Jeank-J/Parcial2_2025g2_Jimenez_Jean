@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Efecto Blur Inferior</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-    }
 
-    .contenido {
-      height: 200vh; /* solo para simular scroll */
-      background: linear-gradient(white, lightblue, blue);
-      padding: 20px;
-    }
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="./css/style.css">
 
-    .blur-bottom {
-      position: fixed;
-      bottom: 0;
-      left: 0;
-      width: 100%;
-      height: 80px; /* altura del efecto */
-      backdrop-filter: blur(10px);
-      -webkit-backdrop-filter: blur(10px); /* soporte Safari */
-      pointer-events: none; /* no bloquea clics */
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
 </head>
-<body>
-  <div class="contenido">
-    <h1>Scroll hacia abajo</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-    <p>Sigue bajando y verás el efecto de desenfoque en la parte inferior.</p>
-  </div>
 
-  <div class="blur-bottom"></div>
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg px-3 sticky-top" style="background-color: #F5F5F5;">
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="./index.html">CoderHub</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html/about.html">About.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./html/work.html">Work.</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact.</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  holas
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>

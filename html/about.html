@@ -23,18 +23,36 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-lg  bg-light sticky-top">
+    <nav class="navbar navbar-expand-lg px-3 sticky-top" style="background-color: #F5F5F5;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">DevHouse</a>
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link active" data-section="home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" data-section="about">About Us</a></li>
-                <li class="nav-item"><a class="nav-link" data-section="portfolio">Portafolio</a></li>
-                <li class="nav-item"><a class="nav-link" data-section="services">Servicios</a></li>
-                <li class="nav-item"><a class="nav-link" data-section="contact">Contact</a></li>
-            </ul>
+
+            <a class="navbar-brand" href="./index.html">CoderHub</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/about.html">About.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/work.html">Work.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact.</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
+
 
     <section class="container-fluid" style="height: 75vh;">
         <div class="row h-100 border border-success">
@@ -329,7 +347,7 @@
                 </div>
             </div>
         </div>
-        
+
     </div>
 
     <!-- seccion de contacto -->
