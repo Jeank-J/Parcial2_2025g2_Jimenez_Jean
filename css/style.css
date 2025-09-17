@@ -52,10 +52,8 @@ body {
     display: flex;
     background-color: black;
     color: white;
-    z-index: 9999;
-    /* más alto que cualquier navbar */
-    animation: cortina 2s ease forwards;
-    /* indica que la animacion se hara acorde al keyframes cortina*/
+    z-index: 9999;    
+    animation: cortina 2s ease forwards;    
     animation-delay: 1s;
 
 }
